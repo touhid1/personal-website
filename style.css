@@ -1,0 +1,159 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    
+}
+
+section {
+    height: 800px;
+}
+
+p {
+    color: #333333;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.pad {
+    padding-left: 140px;
+    text-align: justify;
+}
+
+.hdr {
+    background-image: url(header-bg.png);
+    background-size: cover;
+}
+
+.half-width {
+    float: left;
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+
+.intro h1 {
+    padding-left: 140px;
+    padding-top: 150px;
+}
+
+.name-hilight {
+    color: #ec4b74;
+    font-size: 70px;
+}
+
+.btn1 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 140px;
+}
+
+.btn2 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+a:hover {
+    box-shadow: .5px .5px 10px #333333;
+}
+
+.bio {
+    background-image: url(biography-bg.png);
+    background-size: cover;
+}
+
+.top_mrgn {
+    margin-top: 100px;
+}
+
+.latest_work {
+    padding-top: 150px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.width-by-three img {
+    float: left;
+    width: 25%;
+    margin-left: 2%;
+}
+
+.gap {
+    padding-left: 15%;
+}
+
+.my_work {
+    background-image: url(latest-work-bg.png);
+    background-size: cover;
+}
+
+.client {
+    text-align: center;
+}
+
+.client-nam {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.client-des {
+    text-align: center;
+    font-size: 15px;
+}
+
+.client-msg {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.my-msg {
+    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin: 5% 25%;
+    border-radius: 7px;
+}
+
+.line1 {
+    font-size: 18px;
+}
+
+.line2 {
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+
+.ftr {
+    background-image: url(footer-bg.png);
+    background-size: cover;
+}
