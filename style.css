@@ -5,7 +5,7 @@ body {
 }
 
 section {
-    height: 800px;
+    height: 600px;
 }
 
 p {
@@ -25,8 +25,8 @@ h2 {
     text-align: justify;
 }
 
-.hdr {
-    background-image: url(header-bg.png);
+.header {
+    background-image: url(image/header-bg.png);
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ h2 {
 
 .btn1 {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    background-image: linear-gradient(45deg, #681dad, blue);
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -63,7 +63,7 @@ h2 {
 
 .btn2 {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    background-image: linear-gradient(45deg, #7250ec, #812e43);
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -74,7 +74,7 @@ a:hover {
 }
 
 .bio {
-    background-image: url(biography-bg.png);
+    background-image: url(image/biography-bg.png);
     background-size: cover;
 }
 
@@ -99,7 +99,7 @@ a:hover {
 }
 
 .my_work {
-    background-image: url(latest-work-bg.png);
+    background-image: url(image/latest-work-bg.png);
     background-size: cover;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 }
 
 .my-msg {
-    background-image: linear-gradient(45deg, #ec5093, #ec4b74);
+    background-image: linear-gradient(45deg, #bdb0b5, #834bec);
     color: white;
     text-align: center;
     padding-top: 40px;
@@ -139,21 +139,23 @@ a:hover {
     border-radius: 7px;
 }
 
-.line1 {
+.line {
     font-size: 18px;
 }
 
-.line2 {
+.line1 {
     font-size: 30px;
 }
 
 footer {
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 2%;
-}
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color:#fff;
+  }
 
 .ftr {
-    background-image: url(footer-bg.png);
+    background-image: url(image/footer-bg.png);
     background-size: cover;
 }
